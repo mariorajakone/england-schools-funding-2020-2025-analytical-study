@@ -2,7 +2,7 @@
 
 ## Background Overview
 The School funding allocations are official statistics published to GOV.UK on an annual basis. It contains the funding received by individual mainstream schools in England (approx. 20,000) which are broken down into it’s different local authorities.
-There are numerous fields in the data due to all the elements that the total funding consists of, both through their core budgets and through several other revenue grants for the academic years from 2020-21 to 2024-25 e.g. basic entitlement for the years groups, deprivation band and free school meals.
+There are numerous fields in the data due to all the elements that the total funding consists of, both through their core budgets and through several other revenue grants for the academic years e.g. deprivation band, free school meals and basic entitlement for the various years groups.
 Insights and recommendations are provided on the following key areas.
 
 - Yearly Funding Analysis : How has funding changed since 2021?
@@ -21,17 +21,15 @@ The SQL Queries used to compare the validity of the dashboard values can be foun
 
 ## Overview of Findings
 
-Since 2020, England Schools have seen a steady increase in total funding, with £2.4bn being added each year on average (more so from 2023). However, when put into context and compared against inflation, it has given mixed results but looks to becoming more aligned coming into 2025.
+Since 2020, England Schools have seen a steady increase in total funding, with £2.4bn being added each year on average (even more from 2023). However, when put into context and compared against inflation, it has given mixed results, but becoming more aligned coming into 2025.
 
-Average increase in allocation from £4707 in 2021 to £5752. As of 2025, this is beating inflation by approximately 1%.
+Average increase in allocation from £4472 in 2021 to £5462 laat year. And as of 2025, this is beating inflation by approximately 1%.
 
 When broken down by school type, Primary schools, are getting larger share of the funding but the YoY funding to Secondary schools rises at a large rate compare to Primary schools, and is comfortably above inflation in the last 3-4 years.
 
 In 2022, even though the funding had increased by £1.4bn, there was a drastic gap due to huge rise in inflation that year (due to surging food & energy prices following the pandemic + war in Ukraine).
 
-Each year the top 15 schools based on their average Allocation per Pupil area were all based in London.
-
-The funding was spread relatively evenly across the UK, however the most northern LAs seemed to have an allocation of £300-400 extra than the rest of the UK (excluding London).
+Looking at regional spread, 17 of the top 20 highest LAs based on average allocated per Pupil, were in London. If these were taken aside, the funding was spread relatively evenly across the country (within the £5-6k bracket), however the most northern LAs seemed to have an allocation of £300-400 extra than the rest of the UK (excluding London).
 
 The Average Allocation per Pupil across the whole of the UK, increased Year-on-Year at a rate of £200-300.
 

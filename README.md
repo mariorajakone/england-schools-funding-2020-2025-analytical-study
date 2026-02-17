@@ -21,7 +21,7 @@ The SQL Queries used to compare the validity of the dashboard values can be foun
 
 ## Data Structure & Initial Checks
 
-The Government School Funding Allocation data consists of one csv dataset per academic year. I uploaded the data into a SQL Server database, with one table per academic year. Each year consisted of between 20,150 to 20,200 rows each representing a different school with it's key metrics of ...... This a simplified diagram of each table.
+The Government School Funding Allocation data consists of one csv dataset per academic year. I uploaded the data into a SQL Server database, with one table per academic year. Each year consisted of between 20,150 to 20,200 rows each representing a different school with it's main fields of URN, provider_type and Local Authority. Along with this are the key metrics Total Funding, Allocation per Pupil and Total Number of Pupils. Here is a simplified diagram of the Funding table, which shows it relationship to the Inflation based on the Time Period (Academic Year).
 
 <img width="531" height="472" alt="image" src="https://github.com/user-attachments/assets/1b6e97f7-4431-48ca-92f8-c3b85bd306b8" />
 

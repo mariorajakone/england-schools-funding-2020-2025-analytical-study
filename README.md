@@ -19,6 +19,14 @@ The SQL Queries used to clean and prepare the data for the dashboard can be foun
 
 The SQL Queries used to compare the validity of the dashboard values can be found here.
 
+## Data Structure & Initial Checks
+
+The Government School Funding Allocation data consists of one csv dataset per academic year. I uploaded the data into a SQL Server database, with one table per academic year. Each year consisted of between 20,150 to 20,200 rows each representing a different school with it's key metrics of ...... This a simplified diagram of each table.
+
+<img width="531" height="472" alt="image" src="https://github.com/user-attachments/assets/1b6e97f7-4431-48ca-92f8-c3b85bd306b8" />
+
+Prior to beginning the analysis, a variety of checks were carried out to determine the datatype, size and length of the fields for quality control purpose and familiarise myself with the dataset. The SQL queries used to perform these checks can be found here.
+
 ## Overview of Findings
 
 Since 2020, England Schools have seen a steady increase in total funding, with £2.4bn being added each year on average (and even more from 2023). However, when put into context and compared against inflation, it has given mixed results where it has fluctuated before settling down and becoming more aligned coming into 2025.

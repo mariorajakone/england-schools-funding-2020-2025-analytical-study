@@ -1,0 +1,51 @@
+CREATE VIEW Funding_Combined
+AS
+SELECT 
+		'2020-2021' TimePeriod,
+		Local_Authority_Name,
+		URN,
+		School_Name,
+		Phase,
+		Allocation_per_Pupil,
+		Total_Funding
+FROM Funding2021
+UNION ALL
+SELECT 
+		'2021-2022' TimePeriod,
+		Local_Authority_Name,
+		URN,
+		School_Name,
+		Phase,
+		Allocation_per_Pupil,
+		Total_Funding
+FROM Funding2022
+UNION ALL
+SELECT 
+		'2022-2023' TimePeriod,
+		LA_Name,
+		School_URN,
+		School_Name,
+		School_Phase,
+		Allocation_per_Pupil,
+		Total_Funding
+FROM Funding2023
+UNION ALL
+SELECT 
+		'2023-2024' TimePeriod,
+		LA_Name,
+		School_URN,
+		School_Name,
+		School_Phase,
+		Allocation_per_Pupil,
+		Total_Funding
+FROM Funding2024
+UNION ALL
+SELECT 
+		'2024-2025' TimePeriod,
+		LA_Name,
+		School_URN,
+		School_Name,
+		Education_Phase,
+		Allocation_per_Pupil,
+		Total_Funding
+FROM Funding2025

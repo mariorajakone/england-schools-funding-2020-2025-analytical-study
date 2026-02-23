@@ -1,0 +1,29 @@
+Exploratory Data Analysis Steps
+
+1. Downloaded Files into folder, then one-by-one I imported them into SQL. As there were quite a few columns, it was easier to use the Import/Export wizard to do that process
+
+2. Some of the columns were too long, so the wizard automatically suggested the columns names for those.
+
+3. The wizard also suggested the data types to set each column too. Some datatypes were incorrect so those were changed.
+
+4. In the original files, I created copies so I could do some quality checks on them. The checks included MAX Length, MIN Length, Negative Values, Non-Numeric columns, Blank Rows and Floats. I also did this so that when I set the size of the field, some records will not be truncated.
+
+5. The wizard returned warnings that some fields may contain NULLS and the data will be missing. Made a note of these fields.
+
+6. When the data had been loaded, I did a rowcount and compared that to the original file row count.
+
+7. Using the list of fields that may contain NULLs, I queried the table for the NULLs and cross checked that will the original source files.
+
+Common issues:
+- Interger/Floats fields containing 'Not Available', '*', 'z', 'x'. Happy for these to be converted to NULL values
+- 1 row had a negative value
+- 1 row had DIV+/0 which is most likely the result of copying a calculation where trying to divide by 0 calculation
+- Some parts of the source were formatted differently, so had to set it all to the same format
+- When converting a decimal number/float into an interger field, it converts to NULL
+- 1 column had issues with it's data properties, so it just need a re-insert seemed to solve that
+
+In Tableau tried to used Merge Columns function, as it did not recognise similar columns
+The field names used in recent year's data has better names
+
+- I found some of the Local Authority names were duplicated
+- Created Sets for th LAs

@@ -17,7 +17,7 @@ The SQL queries used to inspect and perform quality check can be found here
 
 The SQL Queries used to clean and prepare the data for the dashboard can be found here.
 
-The SQL Queries used to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/commit/1eb9d2a3504efc9f06d77ba1c018b70e8cfcc948).
+The SQL Queries used to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/Funding%20SQL%20Queries).
 
 ## Data Structure & Initial Checks
 

@@ -13,17 +13,17 @@ Insights and recommendations are provided on the following key areas.
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/mario.rajakone/viz/UKSchoolsFundingAllocations2020-2025/SchoolFundingSystem?publish=yes).
 
-The steps used to clean and prepare the data for the dashboard can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/School%20Funding%20Data%20Cleaning.md).
-
-The SQL Queries used to inspect and perform quality checks, and to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/Funding%20SQL%20Queries).
-
 ## Data Structure & Initial Checks
 
 The Government School Funding Allocation data consists of one csv dataset per academic year. I uploaded the data into a SQL Server database, with one table per academic year. Each year consisted of between 20,150 to 20,200 rows each representing a different school with it's main fields of URN, provider_type and Local Authority. Along with this are the key metrics Total Funding, Allocation per Pupil and Total Number of Pupils. Here is a simplified diagram of the Funding table, which shows it relationship to the Inflation based on the Time Period (Academic Year).
 
 <img width="531" height="472" alt="image" src="https://github.com/user-attachments/assets/1b6e97f7-4431-48ca-92f8-c3b85bd306b8" />
 
-Prior to beginning the analysis, a variety of checks were carried out to determine the datatype, size and length of the fields for quality control purpose and familiarise myself with the dataset. The SQL queries used to perform these checks can be found here.
+Prior to beginning the analysis, a variety of checks were carried out to determine the datatype, size and length of the fields for quality control purpose and familiarise myself with the dataset. 
+
+The steps used to clean and prepare the data for the dashboard can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/School%20Funding%20Data%20Cleaning.md).
+
+The SQL Queries used to inspect and perform quality checks, and to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/Funding%20SQL%20Queries).
 
 ## Overview of Findings
 

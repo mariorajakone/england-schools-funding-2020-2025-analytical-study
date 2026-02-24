@@ -100,9 +100,11 @@ SELECT
 FROM Funding2025
 
 
+/*
 
+ Total Funding by Year
 
--- Total Funding by Year
+*/
 
 SELECT 
 		TimePeriod,

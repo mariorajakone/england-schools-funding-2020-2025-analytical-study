@@ -6,27 +6,32 @@
 */
 
 SELECT
-		COUNT(*)
+		COUNT(URN) [Rows],
+		COUNT(DISTINCT URN) [Unique URN]
 FROM Funding2021
 -- 20168 records
 
 SELECT
-		COUNT(*)
+		COUNT(URN) [Rows],
+		COUNT(DISTINCT URN) [Unique URN]
 FROM Funding2022
 -- 20152 records
 
 SELECT
-		COUNT(*)
+		COUNT(URN) [Rows],
+		COUNT(DISTINCT URN) [Unique URN]
 FROM Funding2023
 -- 20177 records
 
 SELECT
-		COUNT(*)
+		COUNT(URN) [Rows],
+		COUNT(DISTINCT URN) [Unique URN]
 FROM Funding2024
 -- 20181 records
 
 SELECT
-		COUNT(*)
+		COUNT(URN) [Rows],
+		COUNT(DISTINCT URN) [Unique URN]
 FROM Funding2025
 -- 20150 records
 

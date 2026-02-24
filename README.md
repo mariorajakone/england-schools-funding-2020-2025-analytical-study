@@ -1,4 +1,4 @@
-# UK Schools Allocation Funding 2020-2025
+# UK Schools Allocation Funding Analysis 2020-2025
 
 ## Background Overview
 The School funding allocations are official statistics published to GOV.UK on an annual basis. It contains the funding received by individual mainstream schools in England (approx. 20,000) which are broken down into it’s different local authorities.

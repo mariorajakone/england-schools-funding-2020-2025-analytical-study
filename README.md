@@ -13,11 +13,9 @@ Insights and recommendations are provided on the following key areas.
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/mario.rajakone/viz/UKSchoolsFundingAllocations2020-2025/SchoolFundingSystem?publish=yes).
 
-The SQL queries used to inspect and perform quality check can be found here
+The steps used to clean and prepare the data for the dashboard can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/School%20Funding%20Data%20Cleaning.md).
 
-The SQL Queries used to clean and prepare the data for the dashboard can be found here.
-
-The SQL Queries used to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/Funding%20SQL%20Queries).
+The SQL Queries used to inspect and perform quality checks, and to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/Funding%20SQL%20Queries).
 
 ## Data Structure & Initial Checks
 

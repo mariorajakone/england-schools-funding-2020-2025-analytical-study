@@ -1,5 +1,41 @@
 
--- Create View that combines each annual table into one
+/*
+
+ Row Count to confirm all records from files had been imported
+
+*/
+
+SELECT
+		COUNT(*)
+FROM Funding2021
+-- 20168 records
+
+SELECT
+		COUNT(*)
+FROM Funding2022
+-- 20152 records
+
+SELECT
+		COUNT(*)
+FROM Funding2023
+-- 20177 records
+
+SELECT
+		COUNT(*)
+FROM Funding2024
+-- 20181 records
+
+SELECT
+		COUNT(*)
+FROM Funding2025
+-- 20150 records
+
+
+/*
+
+ Create View that combines each annual table into one
+
+*/
 
 CREATE VIEW Funding_Combined
 AS
@@ -71,9 +107,30 @@ GROUP BY TimePeriod
 ORDER BY TimePeriod
 
 
+/*
+
+ List all Local Authority Names and School Phase to check for duplication
+
+*/
+
+-- Local Authority
+SELECT
+		DISTINCT Local_Authority_Name
+FROM Funding_Combined
+ORDER BY Local_Authority_Name
+
+-- School Phase
+SELECT
+		DISTINCT Phase
+FROM Funding_Combined
+ORDER BY Phase
 
 
--- % Difference in Total Funding by Year from Previous Year
+/*
+
+ % Difference in Total Funding by Year from Previous Year
+
+*/
 
 WITH TF_2021 AS (
 	SELECT 
@@ -108,9 +165,11 @@ CROSS JOIN TF_2024
 CROSS JOIN TF_2025
 
 
+/*
 
+ Average Allocation per Pupil by Year and Local Authority
 
--- Average Allocation per Pupil by Year and Local Authority
+*/
 
 WITH AVERAGE_APP AS (
 SELECT 
@@ -135,9 +194,11 @@ GROUP BY TimePeriod, Local_Authority_Name
 ORDER BY TimePeriod, 6, Local_Authority_Name
 
 
+/*
 
+ Difference in % Change in Allocation per Pupil from Previous Year vs Inflation
 
--- Difference in % Change in Allocation per Pupil from Previous Year vs Inflation
+*/
 
 WITH AVERAGE_APP_2021 AS (
 SELECT 

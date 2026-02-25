@@ -11,7 +11,7 @@ Insights and recommendations are provided on the following key areas.
 - Which regions face the highest cost pressures per pupil?
 - Comparision against inflation : Is school funding keeping pace with inflation?
 
-An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/mario.rajakone/viz/UKSchoolsFundingAllocations2020-2025/SchoolFundingSystem?publish=yes).
+An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/mario.rajakone/viz/SchoolsFundingAllocationsinEngland2020-2025/SchoolFundingSystem).
 
 ## Data Structure & Initial Checks
 
@@ -23,7 +23,7 @@ Prior to beginning the analysis, a variety of checks were carried out to determi
 
 The steps used to clean and prepare the data for the dashboard can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/School%20Funding%20Data%20Cleaning.md).
 
-The SQL Queries used to inspect and perform quality checks, and to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/uk-school-funding/blob/main/Funding%20SQL%20Queries).
+The SQL Queries used to inspect and perform quality checks, and to compare the validity of the dashboard values can be found [here](https://github.com/mariorajakone/england-schools-funding-2020-2025-analytical-study/blob/6799d1bd760773f04ae378db969d8b227bff3615/School%20Funding%20SQL%20Queries.sql).
 
 ## Overview of Findings
 

@@ -29,7 +29,7 @@ The SQL Queries used to inspect and perform quality checks, and to compare the v
 
 Since 2020, England Schools have seen a steady increase in total funding, with £2.4bn being added each year on average (and even more from 2023). However, when put into context and compared against inflation, it has given mixed results where it has fluctuated before settling down and becoming more aligned coming into 2025.
 
-<img width="1597" height="897" alt="image" src="https://github.com/user-attachments/assets/7deccfd3-247b-4fb2-a45d-947e178ab61d" />
+<img width="1623" height="902" alt="image" src="https://github.com/user-attachments/assets/e4a4ae20-d42b-4f5b-a482-a07b47ccef85" />
 
 
 The average increase in allocation rose from £4472 in 2021 to £5462 in 2025, which was beating inflation by approximately 1%.
